@@ -1,0 +1,35 @@
+body {
+  background-color: #039BE5;
+  background-image: linear-gradient(#039BE5, #E1F5FE);
+  height: 100%;
+  background-attachment: fixed;
+}
+
+.clock {
+  border: 2px solid #FFF;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin: 200px auto;
+  position: relative;
+}
+
+.hand {
+  width: 50%;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  transform-origin: right;
+}
+
+.hour-hand {
+  height: 3px;
+}
+
+.min-hand {
+  height: 2px;
+}
+
+.sec-hand {
+  height: 1px;
+}
