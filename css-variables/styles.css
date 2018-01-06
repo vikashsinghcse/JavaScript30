@@ -1,0 +1,26 @@
+:root {
+  --spacing: 10px;
+  --blur: 10px;
+  --color: #F44336;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #0097A7;
+  color: #FFF;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+.text-color {
+  color: var(--color);
+}
+
+img {
+  padding: var(--spacing);
+  background-color: var(--color);
+  filter: blur(var(--blur));
+}
